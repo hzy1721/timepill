@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
+
+:root {
+  --text-color: #333;
+  --text-light-color: #999;
+  --primary-color: #FF4A60;
+  --primary-dark-color: #dd4A60;
+  --content-width: 1000px;
+  --pill-content-font-family: FangSong, STFangsong, FangSong_GB2312, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+
+body {
+  height: 100vh;
+  font-family: "ZCOOL XiaoWei", serif;
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+#app,
+#app > * {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  color: var(--text-light-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+input,
+textarea {
+  outline: none;
+  border: 1px solid #999;
+  padding: 5px;
+  font-family: FangSong, STFangsong, FangSong_GB2312, sans-serif;
+  font-size: 15px;
+  line-height: 1.3em;
+}
+
+textarea {
+  resize: none;
+}
