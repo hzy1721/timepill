@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IconCapsule from "./IconCapsule.vue";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -10,9 +11,9 @@ import IconCapsule from "./IconCapsule.vue";
         <div class="title">时间胶囊</div>
       </div>
       <nav>
-        <a href="/">首页</a>
-        <a href="/put" :class="{ active: $route.path === '/put' }">添加</a>
-        <a href="/open" :class="{ active: $route.path.startsWith('/open') }">打开</a>
+        <RouterLink :to="'/'">首页</RouterLink>
+        <RouterLink :to="'/put'" :class="{ active: $route.path === '/put' }">添加</RouterLink>
+        <RouterLink :to="'/open'" :class="{ active: $route.path.startsWith('/open') }">打开</RouterLink>
       </nav>
     </div>
   </div>
