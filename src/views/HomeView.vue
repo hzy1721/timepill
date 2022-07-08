@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IconCapsule from "./IconCapsule.vue";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import IconCapsule from "./IconCapsule.vue";
         </button>
       </div>
       <div class="hint">
-        <a href="">什么是时间胶囊？</a>
+        <RouterLink to="/open/d128e202-99b0-47a0-a028-de2e8339e46a">什么是时间胶囊？</RouterLink>
       </div>
     </div>
   </div>
