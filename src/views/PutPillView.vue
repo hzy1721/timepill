@@ -158,6 +158,7 @@ clipboard.on("success", function (e) {
 .put-pill-view > .content {
   width: var(--content-width);
   margin: 0 auto;
+  padding-bottom: 50px;
 
   > .title {
     font-size: 20px;
