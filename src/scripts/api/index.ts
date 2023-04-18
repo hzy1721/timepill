@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { PutPillDto } from "../dto/PutPillDto";
 
-axios.defaults.baseURL = "http://localhost:3456/";
+axios.defaults.baseURL = "http://1.15.154.241:3456/";
 
 export async function createPill(putPillDto: PutPillDto) {
   try {

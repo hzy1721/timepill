@@ -20,7 +20,7 @@ import { RouterLink } from "vue-router";
         </button>
       </div>
       <div class="hint">
-        <RouterLink to="/open/d128e202-99b0-47a0-a028-de2e8339e46a">什么是时间胶囊？</RouterLink>
+        <RouterLink to="/open/34636d61-d3b0-41c2-a3b3-5429580b089a">什么是时间胶囊？</RouterLink>
       </div>
     </div>
   </div>
